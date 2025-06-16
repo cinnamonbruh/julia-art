@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Chiron Sung HK";
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.centre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.main-container {
+    width: 60vh;
+    height: auto;
+}
+
+.main-container * {
+    font-size: 13px
+}
+
+.main-container h1 {
+    font-size: 18px;
+}
+
+.main-container h2 {
+    font-weight: bold;
+}
+
+.main-container p {
+    color: rgb(100, 100, 100);
+}
+
+.main-container a {
+    font-weight: 400;
+}
+
+.header-container {
+    height: 8vh;
+    padding: 10px;
+}
+
+.header-container img {
+    height: 100%;
+    width: auto;
+}
